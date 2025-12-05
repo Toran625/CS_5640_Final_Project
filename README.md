@@ -7,16 +7,7 @@ cd CS_5640_Final_Project
 ```
 
 ## 2. Create and Activate a Virtual Environment
-### Using venv
-```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
-```
-
-### Using conda
+### Using conda (what I used, but can be done using any other virtual environment)
 ```bash
 conda create -n attention_env python=3.13
 conda activate attention_env
@@ -25,11 +16,6 @@ conda activate attention_env
 ## 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
-```
-
-If using GPU acceleration with CUDA, install the matching PyTorch build:
-```bash
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 ```
 
 ## 4. Run the Project
