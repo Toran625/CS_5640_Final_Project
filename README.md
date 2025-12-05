@@ -2,8 +2,8 @@
 
 ## 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/Toran625/CS_5640_Final_Project.git
+cd CS_5640_Final_Project
 ```
 
 ## 2. Create and Activate a Virtual Environment
